@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090d18">
+  <meta name="description" content="ether9* — a modular AI development workspace">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>ether9*</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><div class="brand-mark">e<span>9</span>*</div><div><strong>ether9*</strong><small>EVOLUTION WORKSPACE</small></div></div>
+      <div class="status"><i></i> LOCAL MODE</div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="eyebrow">SYSTEM OVERVIEW</div>
+        <h1>Build what<br><span>comes next.</span></h1>
+        <p>One evolving workspace for intelligence, invention, creativity, and responsible progress.</p>
+        <div class="hero-stats">
+          <div><strong id="module-count">8</strong><small>MODULES</small></div>
+          <div><strong id="journal-count">0</strong><small>JOURNAL LOGS</small></div>
+          <div><strong>v0.1</strong><small>APP VERSION</small></div>
+        </div>
+      </section>
+
+      <section class="section-head"><div><div class="eyebrow">YOUR WORKSPACE</div><h2>Explore modules</h2></div><span class="tiny-tag">MVP</span></section>
+      <section class="module-grid" id="modules">
+        <button class="module-card" data-page="physique"><span class="module-icon">◈</span><b>Digital Physique</b><small>Capability training & recovery</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="hardware"><span class="module-icon">⌘</span><b>Digital Hardware</b><small>Virtual computing concepts</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="sound"><span class="module-icon">♫</span><b>SoundLab</b><small>Beats, 808s & sound ideas</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="invention"><span class="module-icon">✧</span><b>Invention Lab</b><small>Energy, devices & agriculture</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="journal"><span class="module-icon">▤</span><b>Development Journal</b><small>Record verified progress</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="studio"><span class="module-icon">＋</span><b>App Studio</b><small>Plan future modules</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="health"><span class="module-icon">♡</span><b>System Health</b><small>Reliability & safeguards</small><span class="card-arrow">↗</span></button>
+        <button class="module-card" data-page="principles"><span class="module-icon">◎</span><b>Core Principles</b><small>Purpose & operating boundaries</small><span class="card-arrow">↗</span></button>
+      </section>
+
+      <section class="callout">
+        <div class="eyebrow">DEVELOPMENT PRINCIPLE</div>
+        <h3>Progress should be measurable.</h3>
+        <p>New capabilities count as progress when they are tested, documented, and reliable—not merely proposed.</p>
+      </section>
+    </main>
+
+    <section id="page-view" class="page-view hidden"></section>
+
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-home><span>⌂</span><small>Home</small></button>
+      <button class="nav-item" data-page="journal"><span>▤</span><small>Journal</small></button>
+      <button class="nav-item" data-page="studio"><span>＋</span><small>Studio</small></button>
+      <button class="nav-item" data-page="health"><span>♡</span><small>Health</small></button>
+    </nav>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
